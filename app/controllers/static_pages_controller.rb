@@ -7,4 +7,10 @@ class StaticPagesController < ApplicationController
   
   def portfolio
   end
+  
+  def resume
+  end
+  
+  def contact
+  end
 end

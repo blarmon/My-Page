@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   get 'home' => 'static_pages#home'
   get 'about' =>  'static_pages#about'
   get 'portfolio' => 'static_pages#portfolio'
+  get 'resume' => 'static_pages#resume'
+  get 'contact' => 'static_pages#contact'
   
   get 'application/hello'
 
